@@ -1,0 +1,97 @@
+.ui-slider-handle, ui-state-default, ui-corner-all, ui-state-hover, ui-state-active, ui-state-focus {
+    background: none; !important
+    border: solid 3px gray;
+}
+
+.ui-slider-vertical .ui-state-default {
+    background: transparent;
+    border: solid 3px gray;
+    margin-bottom: .01em;
+}
+
+#slider1, #slider2, #slider3 {
+    margin: 10px;
+    width: 15px;
+    height: 250px;
+}
+
+.sliderValue {
+    height: 25px;
+    color: black;
+    text-align: center;
+}
+
+.sliderValue0 {
+    background-color: black;
+    color: white;
+}
+
+.sliderValue1 {
+    background-color: brown;
+}
+
+.sliderValue2 {
+    background-color: red;
+}
+
+.sliderValue3 {
+    background-color: orange;
+}
+
+.sliderValue4 {
+    background-color: yellow;
+}
+
+.sliderValue5 {
+    background-color: green;
+}
+
+.sliderValue6 {
+    background-color: blue;
+}
+
+.sliderValue7 {
+    background-color: fuchsia;
+}
+
+.sliderValue8 {
+    background-color: #696969;
+}
+.sliderValue9 {
+    background-color: white;
+    color: black;
+}
+
+#tolerance {
+    margin: 10px;
+    width: 15px;
+    height: 75px;
+}
+
+.toleranceValue {
+    height: 33%;
+    color: black;
+    position: relative;
+}
+
+.toleranceValue0 {
+    background-color: #ffd700;
+}
+
+.toleranceValue1 {
+    background-color: silver;
+}
+
+.toleranceValue2 {
+    background-color: #a52a2a;
+}
+
+.toleranceNumberContainer {
+    position:absolute;
+    top:7%;
+    padding-left: 3px;
+}
+
+#resistanceValue {
+    text-align: center;
+}

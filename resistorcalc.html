@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Resistor Calc</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="scripts/resistorcalc.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles/resistorcalc.css" />
+</head>
+<body>
+    <input type="hidden" value="0" id="slider1Value">
+    <input type="hidden" value="0" id="slider2Value">
+    <input type="hidden" value="0" id="slider3Value">
+    <input type="hidden" value="0" id="toleranceValue">
+    <div id="container">
+        <table>
+            <tr>
+                <td colspan="3" style="text-align:center;">
+                    <span id="resistanceValue">0Ω+/- 5%</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="slider1">
+                        <div class="sliderValue sliderValue0"></div>
+                        <div class="sliderValue sliderValue1"></div>
+                        <div class="sliderValue sliderValue2"></div>
+                        <div class="sliderValue sliderValue3"></div>
+                        <div class="sliderValue sliderValue4"></div>
+                        <div class="sliderValue sliderValue5"></div>
+                        <div class="sliderValue sliderValue6"></div>
+                        <div class="sliderValue sliderValue7"></div>
+                        <div class="sliderValue sliderValue8"></div>
+                        <div class="sliderValue sliderValue9"></div>
+                    </div>
+                </td>
+                <td>
+                    <div id="slider2">
+                        <div class="sliderValue sliderValue0"></div>
+                        <div class="sliderValue sliderValue1"></div>
+                        <div class="sliderValue sliderValue2"></div>
+                        <div class="sliderValue sliderValue3"></div>
+                        <div class="sliderValue sliderValue4"></div>
+                        <div class="sliderValue sliderValue5"></div>
+                        <div class="sliderValue sliderValue6"></div>
+                        <div class="sliderValue sliderValue7"></div>
+                        <div class="sliderValue sliderValue8"></div>
+                        <div class="sliderValue sliderValue9"></div>
+                    </div>
+                </td>
+                <td>
+                    <div id="slider3">
+                        <div class="sliderValue sliderValue0"></div>
+                        <div class="sliderValue sliderValue1"></div>
+                        <div class="sliderValue sliderValue2"></div>
+                        <div class="sliderValue sliderValue3"></div>
+                        <div class="sliderValue sliderValue4"></div>
+                        <div class="sliderValue sliderValue5"></div>
+                        <div class="sliderValue sliderValue6"></div>
+                        <div class="sliderValue sliderValue7"></div>
+                        <div class="sliderValue sliderValue8"></div>
+                        <div class="sliderValue sliderValue9"></div>
+                    </div>
+                </td>
+                <td>
+                    <div id="tolerance">
+                        <div class="toleranceValue toleranceValue0">
+                            <div class="toleranceNumberContainer"></div>
+                        </div>
+                        <div class="toleranceValue toleranceValue1">
+                            <div class="toleranceNumberContainer"></div>
+                        </div>
+                        <div class="toleranceValue toleranceValue2">
+                            <div class="toleranceNumberContainer"></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
